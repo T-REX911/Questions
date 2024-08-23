@@ -9,7 +9,7 @@ public class QuestionBookApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(QuestionBookApplication.class, args);
 	}
-	
+
 }
 
 

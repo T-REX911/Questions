@@ -16,11 +16,12 @@ public class Questions {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false,unique = true)
     private int id;
-    @Column(nullable = false,unique = true)
+    @Column(nullable = false,unique = false)
     private int questionNumber;
     @Column(nullable = false)
     private String subject;
     private String question;
+    @Column(length = 5000)
     private String answer;
 
 }
